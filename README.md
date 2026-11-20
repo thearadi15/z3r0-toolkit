@@ -107,3 +107,14 @@ This toolkit is for **authorized security testing only**. Always:
 ## 📝 License
 
 MIT — Use responsibly.
+
+## 🤖 AI Security Research Platform
+
+The human-governed, evidence-driven Python control plane is maintained in
+[`platform/`](./platform/). It complements the existing shell toolkit; it does
+not replace or silently execute those scripts.
+
+See [`platform/README.md`](./platform/README.md) for setup, API usage, safety
+boundaries, and implementation status. The platform is still under active
+development: advisory/source intelligence is metadata-only, PoC templates are
+draft-only, and isolated execution workers are not enabled.
